@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvellous-Ogunleke-Portfolio </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">BestRicky</a>
+        
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          <button class="download-btn">
+         <i class="fas fa-download"></i> Download Resume
+     </button>
+        </nav>
+<!-- Loading Spinner -->
+<div id="loading-spinner">
+    <div class="spinner"></div>
+</div>
+
+<!-- Dark Mode Toggle -->
+<button type="button" title="dark-mode-toggle" id="dark-mode-toggle" class="dark-mode-toggle">
+    <i class="fas fa-moon"></i>
+</button>
+          
+        <i class="fas fa-bars hamburger"></i>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <i class="fas fa-times close-menu"></i>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+           <button class="download-btn">
+         <i class="fas fa-download"></i> Download Resume
+     </button>
+        </div>
+    </header>
+    
+       <!-- Hero Section -->
+    <section id="home" class="hero"><div id="particles-js"></div>
+        <div class="profile">
+  <div class="profile-picture-container">
+    <img src="images/Profile.png" alt="Marvellous Ogunleke" class="profile-picture">
+    <div class="neon-ring"></div>
+  </div>
+  <!-- Rest of profile content -->
+            <h1 class="profile-name">Marvellous Ogunleke</h1>
+            <p class="profile-summary">
+                Frontend developer crafting interactive experiences with React | TypeScript | Tailwind. 
+                Built real-time streaming apps with secure architecture. 
+                Actively evolving toward full-stack proficiency to deliver end-to-end solutions.
+              </p>
+        </div>
+        
+    <div class="resume-card">
+      <button class="download-btn">
+        <i class="fas fa-download"></i> Download Resume
+      </button>
+    </div>
+    <div class="whatsapp-container">
+    <a class="whatsapp-toggle" title="whatsap"rel="noopener noreferrer" href="https://wa.me/2348022871344?text=Hello%2C%20I'm%20interested%20in%20your%20services" target="_blank">
+        <i class="fab fa-whatsapp"  ></i>
+      </a>
+      <form class="whatsapp-input-box" action="" onsubmit="openWhatsApp(event)">
+        <input type="text" id="userMessage" placeholder="Send us a message..." />
+        <button title="send" type="submit">
+            <i class="fas fa-paper-plane"></i></button>
+      </form>
+      </div>
+        <div class="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li data-progress="98">HTML</li>
+    <li data-progress="90">CSS</li>
+    <li data-progress="85">JavaScript</li>
+    <li data-progress="70">React</li>
+    <li data-progress="90">Tailwind CSS</li>
+    <li data-progress="85" >Git & GitHub</li>
+  </ul>
+</div>
+            
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+<p>
+  Hi, I'm Marvellous Ogunleke, a passionate frontend developer specializing in interactive web experiences. 
+  I've built responsive applications using modern stacks including React, Vite, and Tailwind CSS, with recent 
+  projects like a secure livestreaming platform using Zegocloud's API.
+  
+  Currently advancing my skills in:
+  • Real-time web applications (WebSockets, live streaming)
+  • Secure deployment practices (Vercel, environment variables)
+  • UI/UX optimization for media-rich interfaces
+  
+  My journey now focuses on bridging frontend development with backend functionality as I work toward full-stack 
+  proficiency. I'm particularly interested in how technology can enhance real-time communication and digital collaboration.
+</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="images/quickcart.png" alt="quickcart">
+                <h3>QuickCart - E-commerce Website</h3>
+<p>
+A modern online shopping platform that enables customers to:
+• Browse and purchase a wide range of products
+• Access exclusive deals and limited-time offers
+• Enjoy secure payment and fast delivery
+Shop with ease, convenience, and style — perfect for tech lovers, gamers, and everyday shoppers.
+</p>
+                <a href="https://quick-cart-iota-sable.vercel.app/" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/portfolio.PNG" alt="portfolio">
+                <h3>Creative Graphic Designer | Portfolio</h3>
+<p>
+I bring ideas to life through design that inspires and connects.  
+I specialize in:
+• Capturing emotion, detail, and depth in every frame  
+• Creating compelling visuals for intimate portraits and large-scale events  
+• Telling powerful stories through a creative lens  
+Every project blends artistry and purpose to leave a lasting impression.
+</p>
+                <a href="https://photographer-portfolio-jet.vercel.app/" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/prodcast.jpg" alt="Project 2">
+                <h3>LiveStream & Podcast Studio</h3>
+<p>
+A professional broadcasting platform that enables users to:
+• Launch instant livestream sessions
+• Host podcast recordings
+• Join existing streams via room codes
+Broadcast with studio-quality features in just one click. Perfect for creators, educators, and professionals.
+</p>
+                <a href="https://livestream-app-six.vercel.app" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/mindleap.jpg" alt="Project 2">
+                <h3>MINDLEAP </h3>
+                <p>Begin Your Journey to Mental Wellness
+                    Reducing stress, understanding your emotions, strengthening connections, enhancing focus, and practicing self-compassion are all within reach. Explore the foundations of mindfulness with our expertly crafted guide on meditation and mental well-being.</p>
+                <a href="https://mindleap-app.vercel.app
+                " class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/movieReview.png" alt="Project 3">
+                <h3>Movie Database App</h3>
+                <p>A web application that fetches and displays movie data from The Movie DB API.</p>
+                <a href="https://glittering-cupcake-fc742b.netlify.app/" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/weather app.png" alt="Project 2">
+                <h3>Weather App</h3>
+                <p>A weather App to get the temperature, the nature of the city you input built with HTML, CSS, and JavaScript.</p>
+                <a href="https://lustrous-basbousa-11ce9e.netlify.app/" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/Real estate.PNG" alt="Project 2">
+                <h3>Real Estate </h3>
+                <p>Find your ideal home with our extensive network of real estate agents in San Francisco, CA 94123, and beyond </p>
+                <a href="https://real-estate-nine-liart.vercel.app/" class="project-link">View Project</a>
+            </div>
+               
+            <!-- Add more project cards as needed -->
+               <div class="project-card">
+                <img src="images/taskmanager.png" alt="Project 2">
+                <h3>Task Manager</h3>
+                <p>Task Manager
+An intuitive task management tool that allows users to:Add tasks. Mark tasks as complete. Delete tasks once finished.
+This app helps users stay organized and track their progress efficiently.</p>
+                <a href="https://marvtaskmanage.netlify.app/" class="project-link">View Project</a>
+            </div>
+               
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+      <form action="https://getform.io/f/bllypleb" method="POST" class="contact-form" name="contact"  >
+    <input type="hidden" name="form-name" value="contact">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <input class="hide" type="hidden" name="_gotcha" >
+    <button type="submit">Send Message</button>
+</form>
+
+<div id="success-message" class="success-message">
+    <p>Thank you! Your message has been sent successfully.</p>
+</div>
+    </section>
+   
+    
+        
+    <button id="back-to-top" class="back-to-top" type="button" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/marvellous-ogunleke2025" target="_blank" rel="noopener noreferrer" title="Visit my LinkedIn profile">
+                    <i class="fab fa-linkedin"></i>
+                </a> 
+                <a href="https://github.com/marvellousabio" target="_blank" rel="noopener noreferrer" title="Visit my GitHub profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/MarvellousAbio5" target="_blank" rel="noopener noreferrer" title="Visit my Twitter profile">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Marvellous Ogunleke. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
