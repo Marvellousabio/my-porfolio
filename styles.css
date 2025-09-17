@@ -61,9 +61,11 @@ body {
 }
 .dark-mode-toggle{
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #2D5D7C;
     transition: color 0.3s ease;
+    background: none;
+    border: none;
 }
 /* Resume Preview Animation */
 .resume-preview {
@@ -358,6 +360,11 @@ body.dark-mode {
     font-weight: 500;
     transition: background-color 0.3s ease;
   animation: pulse 2s infinite;
+  gap: 0.5rem;
+}
+.download-btn p{
+    display: inline;
+    margin: 0;
 }
 
 
@@ -549,6 +556,8 @@ body.dark-mode {
 
 .project-card img {
     width: 100%;
+    height:200px;
+    object-fit: cover;
     border-radius: 10px;
     margin-bottom: 1rem;
 }
