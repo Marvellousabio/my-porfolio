@@ -510,7 +510,13 @@ body.dark-mode {
     text-align: center;
     background-color: #F8F9FA;
 }
-
+.dark-mode .about{
+    background-color: #333;
+    color: #ffffff;
+}
+.dark-mode .about p{
+    color: #cccccc;
+}
 .about h2 {
     font-size: 2rem;
     color: #2D5D7C;
